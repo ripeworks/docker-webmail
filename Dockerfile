@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Mike Kruk <mike@ripeworks.com>
 
+RUN echo "deb http://archive.ubuntu.com/ubuntu quantal main universe" > /etc/apt/sources.list
 RUN apt-get -y update
 RUN apt-get -y upgrade
 

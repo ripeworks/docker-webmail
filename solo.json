@@ -1,0 +1,7 @@
+{
+  "domain": "example.com",
+  "fqdn": "example.com",
+  "run_list": [
+    "recipe[mailserver::default]"
+  ]
+}

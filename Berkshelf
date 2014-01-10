@@ -1,0 +1,8 @@
+site :opscode
+
+cookbook 'build-essential'
+cookbook 'git'
+cookbook 'postgresql'
+cookbook 'database'
+cookbook 'lighttpd'
+cookbook 'mailserver', github: 'pehlert/chef-mailserver'

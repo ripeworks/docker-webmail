@@ -5,6 +5,21 @@
 * Mail server defaults
 * PGP
 
+# Getting Started
+
+Configure `aliases`, `domains`, `passwords` to your liking.
+
+_These commands need more arguments to work properly._
+
+```bash
+# Build that container
+$ docker build -t mail-server:0.1 .
+```
+
+```bash
+# Run that container
+$ docker run -d mail-server:0.1
+```
 
 # Credit
 
